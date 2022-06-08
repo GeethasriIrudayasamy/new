@@ -11,3 +11,9 @@ for (var i = 0; i < odd.length; i++) {
 
 //Diff b/w querySelector and querySelectorAll
 //querySelector is used to access single element whereas querySelectorAll is used to access all elements that matches the selectors.
+
+//DOM
+var even = document.querySelectorAll("li:nth-child(odd)");
+for (var i = 0; i < even.length; i++) {
+  even[i].style.backgroundColor = "grey";
+}
