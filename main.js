@@ -8,3 +8,6 @@ var odd = document.querySelectorAll("li:nth-child(odd)");
 for (var i = 0; i < odd.length; i++) {
   odd[i].style.backgroundColor = "green";
 }
+
+//Diff b/w querySelector and querySelectorAll
+//querySelector is used to access single element whereas querySelectorAll is used to access all elements that matches the selectors.
