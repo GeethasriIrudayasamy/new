@@ -146,3 +146,4 @@ stu3.checkEligibilityforPlacement(18)(40);
 stu4.checkEligibilityforPlacement(18)(40);
 stu5.checkEligibilityforPlacement(18)(40);
 stu6.checkEligibilityforPlacement(18)(40);
+//commit
