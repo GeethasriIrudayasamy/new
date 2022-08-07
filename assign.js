@@ -9,17 +9,31 @@
 // printdetail();
 
 //Using bind()
-let multiply = function (x, y) {
-    console.log(x * y);
-};
-let multiplyby12 = multiply.bind(this, 12);
-multiplyby12(12);
+// let multiply = function (x, y) {
+//     console.log(x * y);
+// };
+// let multiplyby12 = multiply.bind(this, 12);
+// multiplyby12(12);
 
-//Using closure
-let multiplication = function (a) {
-    return function (b) {
-        console.log(a * b);
-    };
-};
-let multiplyby13 = multiplication(13);
-multiplyby13(13);
+// //Using closure
+// let multiplication = function (a) {
+//     return function (b) {
+//         console.log(a * b);
+//     };
+// };
+// let multiplyby13 = multiplication(13);
+// multiplyby13(13);
+
+// const name = (arr) => {
+//     var count = 0;
+//     return () => {
+//         console.log("Hello " + arr[count]);
+//         count++;
+//     };
+// };
+
+// const fun = name(["Ram", "Shyam"]);
+
+// fun(); // Print Hello Ram
+
+// fun(); //print Hello Shyam
