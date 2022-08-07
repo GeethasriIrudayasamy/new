@@ -139,11 +139,12 @@ const stu3 = new Student("Jung Hoseok", 27, 9999777777, 91);
 const stu4 = new Student("Min Yoongi", 28, 9666997779, 77);
 const stu5 = new Student("Park Jimin", 26, 9995555599, 66);
 const stu6 = new Student("Zyan", 26, 9779555559, 34);
+
 console.log(Student.counter);
+
 stu1.checkEligibilityforPlacement(18)(40);
 stu2.checkEligibilityforPlacement(18)(40);
 stu3.checkEligibilityforPlacement(18)(40);
 stu4.checkEligibilityforPlacement(18)(40);
 stu5.checkEligibilityforPlacement(18)(40);
 stu6.checkEligibilityforPlacement(18)(40);
-//commit
